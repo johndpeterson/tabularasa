@@ -46,4 +46,5 @@ print" | <a href='http://" .$_SERVER['HTTP_HOST'].Script_Path. "form.php'>Home</
 if($_SESSION['user_level'] >= 4) 
 {print"<a href='admin_center.php'>Admin Center</a> | <a href='http://".$_SERVER['HTTP_HOST'].Script_Path."form_admin.php'>Admin Form</a> | <a href='http://".$_SERVER['HTTP_HOST'].Script_Path."report_date.php'>Daily Reports</a> | <a href='http://".$_SERVER['HTTP_HOST'].Script_Path."report_monthly.php'>Monthly Reporting</a> | <a href='http://".$_SERVER['HTTP_HOST'].Script_Path."report_annual.php'>Annual Reports</a> | <a href='http://".$_SERVER['HTTP_HOST'].Script_Path."report_individual_admin_year.php'>Individual Annual Reports</a>";}
 print"</span></div><div class='forms'>";$login=$_SESSION["login"];}
+else{print"</span></div><div class='forms'><br /><br />";}
 ?>
