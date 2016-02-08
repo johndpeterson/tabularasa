@@ -1,8 +1,22 @@
 <?
 /*
-Login System Modified from code available here:
-http://code.google.com/p/php-login-script/
-Change User information (not password)
+Tabula Rasa was originally developed as a student productivity tracker 
+for use by the Public Services Department at Pitts Theology Library at 
+Emory University, Atlanta, Georgia, USA 
+by John Peterson http://github.com/johndpeterson/tabularasa
+
+Tabula Rasa is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tabula Rasa is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tabula Rasa.  If not, see <http://www.gnu.org/licenses/>.
 */
 //Do not remove - essential to login system
 include_once 'include/processes.php';

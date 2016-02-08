@@ -1,10 +1,23 @@
 <?php 
 /*
-Framework Name: Tabula Rasa
-Developed for: Pitts Theology Library, 2012
-Filename:	nav.php
-Author:		John Peterson
-Description:
+Tabula Rasa was originally developed as a student productivity tracker 
+for use by the Public Services Department at Pitts Theology Library at 
+Emory University, Atlanta, Georgia, USA 
+by John Peterson http://github.com/johndpeterson/tabularasa
+
+Tabula Rasa is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tabula Rasa is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tabula Rasa.  If not, see <http://www.gnu.org/licenses/>.
+
 This code is inserted at the top of every page in the system.
 */
 //Database connection sequence - uses variables set in include/constants.php

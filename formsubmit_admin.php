@@ -1,23 +1,22 @@
-<!DOCTYPE html>
-<html lang="en-US">
- <head>
- <meta charset="UTF-8">
- <style type="text/css">
-  table, th, td {border: 1px solid black
-};
- </style>
- </head>
- <body>
- <p>
- <?php
+<?php
 /*
-Framework Name: Tabula Rasa 
-Developed for: Pitts Theology Library, 2012
-Filename:	report_individual_admin.php
-Author:		John Peterson
-Description:
-This file is a report of all work 
-done during a particular day with full data and user select option.
+Tabula Rasa was originally developed as a student productivity tracker 
+for use by the Public Services Department at Pitts Theology Library at 
+Emory University, Atlanta, Georgia, USA 
+by John Peterson http://github.com/johndpeterson/tabularasa
+
+Tabula Rasa is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tabula Rasa is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tabula Rasa.  If not, see <http://www.gnu.org/licenses/>.
 */
 //calls configuration file - do not remove this line.
 include_once 'include/processes.php';

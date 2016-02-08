@@ -1,7 +1,31 @@
-<?php include_once 'include/processes.php';
+<?php
+/*
+Tabula Rasa was originally developed as a student productivity tracker 
+for use by the Public Services Department at Pitts Theology Library at 
+Emory University, Atlanta, Georgia, USA 
+by John Peterson http://github.com/johndpeterson/tabularasa
+
+Tabula Rasa is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tabula Rasa is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tabula Rasa.  If not, see <http://www.gnu.org/licenses/>.
+
+This File uses a Legacy Version of the Code.  If you use categories with the names 
+found in the formulas, it will compile Monthly and Annual Summations for those categories. T
+his was a very specific report set up for Pitts Library and may not apply to your usage.  
+It is linked as Annual Reports in the Admin Nav pane.
+*/
+include_once 'include/processes.php';
 include "include/nav.php";
 
-/**This File uses a Legacy Version of the Code.  If you use categories with the names found in the formulas, it will compile Monthly and Annual Summations for those categories. This was a very specific report set up for Pitts Library and may not apply to your usage.  It is linked as Annual Reports in the Admin Nav pane.*/
 $today = date("Y");	
 if(($_REQUEST["year"])){$today = $_REQUEST['year'];$todayfystartyear = ($today-1);$todayfystart = $todayfystartyear."-07-01%";$todayfyendyear = $today;$todayfyend = $todayfyendyear."-06-30%";}
 if(!($_REQUEST["year"])){$today = date("Y");$todayfystartyear = ($today-1);$todayfystart = $todayfystartyear."-07-01%";$todayfyendyear = $today;$todayfyend = $todayfyendyear."-06-30%";}

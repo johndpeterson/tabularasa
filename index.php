@@ -1,11 +1,22 @@
 <?php
 /*
-Framework Name: Tabula Rasa 
-Developed for: Pitts Theology Library, 2012
-Filename:	index.php
-Author:		John Peterson
-Description:
-This file is a hybrid report and login form.  Some sections are set with conditional variables based on the needs of our circulation department. 
+Tabula Rasa was originally developed as a student productivity tracker 
+for use by the Public Services Department at Pitts Theology Library at 
+Emory University, Atlanta, Georgia, USA 
+by John Peterson http://github.com/johndpeterson/tabularasa
+
+Tabula Rasa is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Tabula Rasa is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Tabula Rasa.  If not, see <http://www.gnu.org/licenses/>.
 */
 //Do not remove this line - it is integral to login system.
 include_once 'include/processes.php';
