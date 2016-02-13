@@ -1,3 +1,6 @@
+CREATE DATABASE `tabularasa`;
+USE `tabularasa`;
+
 CREATE TABLE `adminexclude` (
   `ID` int(11) NOT NULL,
   `exclude` varchar(255) DEFAULT NULL
