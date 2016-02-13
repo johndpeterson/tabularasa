@@ -24,9 +24,7 @@ Original favicon and banner graphic were modified from a woodcut of St. Jerome,
 part of the Pitts Digital Image Archive http://www.pitts.emory.edu/dia
 */
 
-
-
-# Database Information
+# Database Information - The .sql file in the root folder will create database and tables but not the database user.
 // Database Server (localhost unless db hosted on another server then IP or server name) 
 define("DBHOST","servernamehere");
 // Database Port - only necessary if not using 3306.
